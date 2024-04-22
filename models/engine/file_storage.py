@@ -65,8 +65,9 @@ class FileStorage:
                 del FileStorage.__objects[key]
 
     def close(self):
-    	"""reload"""
-    	self.reload()
+        """reload"""
+        self.reload()
+
 
 def get_key(_dict, obj):
     """
